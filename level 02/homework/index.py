@@ -1,0 +1,17 @@
+# # 1) გაიცანით თქვენი ჯგუფელები, დაიმეგობრეთ, და გაუზიარეთ შთაბეჭდილებები, იმეცადინეთ ერთად, შეიყვარეთ ერთმანეთი. 
+#(ვისაც გაიცნობთ, ყველას სახელი და გვარი დაბეჭდეთ print() ფუნქციის მეშვეობით.
+print("juba maxaradze")
+print("batoni nika keshelava")
+print("vano motiashvili")
+print("nikoloz bakuradze")
+print("giorgi varadashvili")
+print("aleksandre dzukaevi")
+print("giorgi aslamazishvili")
+print("gabi gaxokidze")
+print("aleksandre antia")
+print("Giorgi devadze")
+print("demetre gabaidze")
+print("davit kibilovi")
+print("luka adamashvili")
+print("luka lapiashvili")
+print("vache wiklauri")

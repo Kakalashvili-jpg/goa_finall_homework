@@ -1,0 +1,12 @@
+/* dv 2 */
+p {
+    text-decoration: 1px dotted underline red ;
+}
+/* dv3 */
+img {
+    width: 50%;
+}
+h1 {
+    color: rgb(255, 255, 0);
+    text-decoration: dashed 1px underline red;
+}

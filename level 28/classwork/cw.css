@@ -1,0 +1,30 @@
+/* dv 1 */
+input:hover{
+    color: red;
+}
+
+/* dv 2 */
+button:hover{
+    color: rgba(0, 255, 0, 0.452);
+    font-size: 20px;
+}
+
+/* dv 3 */
+tr:nth-child(even){
+    background: black;
+    color: white;
+}
+  tr:nth-child(odd){
+    background: blue;
+    color: red;
+}
+
+/* dv 5 */
+ul:hover{
+    color: yellow;
+}
+
+/* dv 6 */
+ol:active{
+    background-color: green;
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: green;
+}
+
+/* dv1 */
+/* 220px სიგანე,
+ფონის ფერი,
+შიდა დაშორება მხოლოდ ზევით და ქვემოთ,
+1px წყვეტილი საზღვარი (dashed) */
+
+article{
+    width: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px dashed blue;
+}
+
+/* dv 2 */
+/* პირველ div-ს მხოლოდ padding მიეცით,
+მეორეს მხოლოდ border,
+მესამეს მხოლოდ margin, */
+#div1 {
+    padding: 20px;
+}
+#div2{
+    border: 1px dashed red;
+}
+
+#div3 {
+    margin: 20px;
+}
+/* dv3 */
+#img1 {
+    border-radius: 20px,
+}
+#img2 {
+    border-radius: 5px 30px 50px 10px,
+}
+
+
+/* dv4 */
+/* გარე კონტეინერს მიეცით padding, width, height, background-color / შვილებს — margin, with, height, background-color --> */
+#div9 {
+    padding: 20px;
+    width: 10px;
+    height: 30px;
+    background-color: red;
+}
+.id {
+    margin: 20px;
+    width: 44px;
+    height: 5px;
+    background-color: rgb(98, 0, 103);
+}

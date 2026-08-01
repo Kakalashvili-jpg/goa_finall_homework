@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap');
+a{
+    color: lightblue;
+    text-decoration:underline ;
+}
+a:visited{
+    color: rgb(42, 0, 42);
+}
+.box {
+  width: 500px;
+  height: 500px;
+  background-color: lightgray;
+  color: black;
+}
+
+.box:hover {
+  background-color: green;
+  color: white; 
+}
+.Button {
+  background-color: lightblue; 
+  color: black;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+}
+
+.Button:active {
+  background-color: darkblue;
+  border: 2px solid red;
+  color: white;
+}
+#Hi{
+    font-family:"BBH Sans Bogle", sans-serif; ;
+}
+#Hello{
+    font-family:  "Playwrite DE Grund Guides", cursive;
+}
+#Byee{
+    font-family: "Playwrite DE SAS", cursive;
+}
+ .p1 {
+    text-decoration: underline;
+  }
+
+
+  .p2 {
+    text-decoration: overline;
+  }
+
+
+  .p3 {
+    text-decoration: line-through;
+  }
+
+
+  .p4 {
+    text-decoration: none;
+}
+  img {
+    width: 300px; 
+    transition: all 3s; 
+  }
+
+  img:hover {
+    transform: scale(1.3);
+    border: 5px solid blue;
+    border-radius: 20px;
+  }

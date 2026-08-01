@@ -1,0 +1,55 @@
+/* dv 2 */
+#div1 {
+width: 200px;
+height: 200px;
+background-color: red;
+padding: 10px;
+margin: 5px;
+border-radius: 20px;
+border: 2px solid green;
+        
+}
+
+/* dv3 */
+#div2{
+    border: solid 1px greenyellow;
+    margin: 15px;
+    padding: 40px;
+}
+
+#div3 {
+    border: 1px solid black;
+    margin: 6px;
+    padding: 7px;
+}
+
+#div4{
+    border: solid 1px green;
+    margin: 9px;
+    padding: 11px;
+}
+/* dv 4 */
+b{
+    border: solid 1px brown;
+    margin: 99px;
+    padding: 12px;
+}
+
+.hi{
+    border: solid 1px black;
+    margin: 67px;
+    padding: 67px;
+}
+
+/* dv 5 */
+img{
+    width: 150px;
+    border-radius: 50%;
+}
+/* dv 6 */
+#Dd{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 69% 31% 70% 30% / 0% 100% 0% 100% ;
+}

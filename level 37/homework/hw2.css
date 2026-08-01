@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  gap: 10px;
+  width: 600px;
+}
+
+.box {
+  color: white;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.one{
+    background-color: #0b8f7a;
+}
+.two   {
+    background-color: #c24b3a; 
+}
+.three {
+    background-color: #b5bf1a; 
+}
+.four  {
+    background-color: #007acc; 
+}
+.five  {
+    background-color: #e67e22; 
+}
+.six   { 
+    background-color: #7e57c2; 
+}

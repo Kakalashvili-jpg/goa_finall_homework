@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: red;
+        }
+        #p1 {
+            color: yellowgreen;
+        }
+        #p2 {
+            color: green;
+        }
+        #p3 {
+            background-color: yellow;
+            color: yellow;        
+        }
+        #p4 {
+            color: red
+        }
+        #p5 {
+            background-color: yellow;
+            color: green;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<!--  1) კომენტარის სახით ახსენით როგორ გამოიყენება: inline, internal და external css-ები და რა განსხვავებაა ამ სამს შორის.
+
+2) შექმენით დივ თაგი, რომელშიც იქნება 2 ელემენტი  და internal css-ით გასტილეთ ისინი თქვენი სურვილისამებრ.
+
+3) შექმენით 5 პარაგრაფი და internal css-ის გამოყენებით, 5ვე პარაგრაფს მიანიჭეთ განსხვავებული ფერი და ფონის ფერი.
+
+4) external css-ის გამოყენებით, გასტილეთ html ფაილში შექმნილი 2 პარაგრაფი და მიანიჭეთ მათ: შავი ფონი, თეთრი ფერი, border, text-align
+
+5) შექმენით ერთი ცხრილი 4 row და 4 column-ით დას შემდეგ inline css-ით გაუკეთეთ ყველა უჯრას border-ები და ფონები. -->
+<!--dv 1 -->
+<!-- Internal CSS ნიშნავს, რომ CSS კოდი პირდაპირ HTML შიგნით წერია, -->
+<!-- external css ნიშნავს იმას რომ ვქმნიტ calke css  ფაილს და იქ ვწერთ კოდს -->
+<!-- in line css ნიშნავს რომ css  კოდი დაწერილია html ის თაგში --> 
+
+<!-- dv 2 -->
+<div>
+    <P id="p00">HELLO!</P>
+    <p id="p11">GOA IS THE BEST!</p>
+
+<!-- dv 3 -->
+<P id="p1">HELLO</P>
+<P id="p2">HELLO</P>
+<P id="p3">HELLO</P>
+<P id="p4">HELLO</P>
+<P id="p5">HELLO</P>
+
+<!-- dv 4 -->
+<p id="p10">GOA BEST</p>
+<p id="p11">GOA BEST</p>
+
+<!-- dv 5 -->
+<table style="border-collapse: collapse; width: 100%;">
+        <tr>
+            <td style="border: 2px solid black; background-color: lightblue; padding: 10px; text-align: center;">Cell 1</td>
+            <td style="border: 2px solid black; background-color: lightgreen; padding: 10px; text-align: center;">Cell 2</td>
+            <td style="border: 2px solid black; background-color: lightyellow; padding: 10px; text-align: center;">Cell 3</td>
+            <td style="border: 2px solid black; background-color: lightcoral; padding: 10px; text-align: center;">Cell 4</td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid black; background-color: lightblue; padding: 10px; text-align: center;">Cell 5</td>
+            <td style="border: 2px solid black; background-color: lightgreen; padding: 10px; text-align: center;">Cell 6</td>
+            <td style="border: 2px solid black; background-color: lightyellow; padding: 10px; text-align: center;">Cell 7</td>
+            <td style="border: 2px solid black; background-color: lightcoral; padding: 10px; text-align: center;">Cell 8</td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid black; background-color: lightblue; padding: 10px; text-align: center;">Cell 9</td>
+            <td style="border: 2px solid black; background-color: lightgreen; padding: 10px; text-align: center;">Cell 10</td>
+            <td style="border: 2px solid black; background-color: lightyellow; padding: 10px; text-align: center;">Cell 11</td>
+            <td style="border: 2px solid black; background-color: lightcoral; padding: 10px; text-align: center;">Cell 12</td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid black; background-color: lightblue; padding: 10px; text-align: center;">Cell 13</td>
+            <td style="border: 2px solid black; background-color: lightgreen; padding: 10px; text-align: center;">Cell 14</td>
+            <td style="border: 2px solid black; background-color: lightyellow; padding: 10px; text-align: center;">Cell 15</td>
+            <td style="border: 2px solid black; background-color: lightcoral; padding: 10px; text-align: center;">Cell 16</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
+

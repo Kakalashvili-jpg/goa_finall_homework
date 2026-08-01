@@ -1,0 +1,27 @@
+/* dv1 */
+.pa{
+    width:700px;
+  height:500px;
+  position: absolute;
+}
+
+
+/* dv2 */
+body{
+    height: 500vh;
+}
+
+#button1{
+    position: sticky ;
+    top: 0;
+}
+
+
+i{
+    color: orange;
+}
+
+#i{
+    background-color: black;
+    gap: 100px;
+}

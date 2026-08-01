@@ -1,0 +1,46 @@
+/* 1) CSS-ის ფაილში კომენტარის სახით ახსენით თ რა უპირატესობა აქვს class-ების გამოყენებას. */
+/* claseebit shegvilia ra,denime cvladis gastilva erti da igive classs mnishvnelobit */
+
+/* 2)(ამ დავალებების შესასრულებლად გამოიყენეთ class-ები. ელემენტები გასტილეთ Exrernal CSS-ში.)  */
+/* შექმენით ვებ-საიტი: დაამატეთ 4 ფოტო, 5 პარაგრაფი და 2 Heading-ი.
+ - ფოტოებიდან 2-ს მიანიჭეთ წითელი ფერის solid ბორდერი და ზომა: 150 x 150. 
+ხოლო დანარჩენ 2 ფოტოს მიანიჭეთ იასამნისფერი double ბორდერი და ზომა: 200 x 200. 
+ - საიტზე დამატებულ 3 პარაგრაფს მიეცით ლურჯი ფერი, 2-ს კი მწვანე ფერი. (ხუთივე პარაგრაფი გადაიტანეთ ცენტრში.)
+- ორივე Heading-ს მიეცით ლურჯი solid ბორდერი, ტექსტის ფერი -- იისფერი და გადაიტანეთ ცენტრში.a */
+.forst{
+    border: solid red 150px;
+}
+.dog{
+    border: double purple 200px;
+}
+.p{
+    color: blue;
+    text-align: center;
+}
+.End{
+    color: green;
+    text-align: center;
+}
+.h1{
+    border: solid blue;
+    color: rgba(90, 5, 139, 0.582);
+    text-align: center;
+}
+.button{
+    color: yellowgreen;
+}
+#h1{
+    color: red;
+}
+#h2{
+    color: yellow;
+}
+#h3{
+    color: green;
+}
+#h4{
+    color: yellowgreen;
+}
+#h5{
+    color: purple;
+}

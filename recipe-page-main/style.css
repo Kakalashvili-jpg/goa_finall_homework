@@ -1,0 +1,25 @@
+h1 {
+    color: rgb(150, 32, 32);
+}
+
+
+#h1{
+    color: purple;
+}
+
+
+#div {
+    border-radius: 15px;
+    background-color: rgba(255, 192, 203, 0.658);
+}
+
+div{
+border-radius: 15px;
+background-color: white;
+text-align: center;
+}
+
+#div5{
+    border-radius: 15px;
+    text-align: center;
+}

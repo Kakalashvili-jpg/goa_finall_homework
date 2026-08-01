@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+}
+
+
+
+.top-text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.light{
+    font-weight: 200;
+    color: gray;
+}
+
+.top-text p{
+    color: gray;
+    width: 500px;
+    margin: auto;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+
+
+.container{
+    width: 1100px;
+    margin: 70px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.card{
+    width: 300px;
+    height: 200px;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+
+    position: relative;
+}
+
+.card h2{
+    color: #333;
+}
+
+.card p{
+    color: gray;
+    line-height: 1.5;
+}
+
+
+
+.card img{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+
+.supervisor{
+    border-top: 5px solid cyan;
+}
+
+.team{
+    border-top: 5px solid red;
+    margin-bottom: 30px;
+}
+
+.karma{
+    border-top: 5px solid orange;
+}
+
+.calculator{
+    border-top: 5px solid blue;
+}
